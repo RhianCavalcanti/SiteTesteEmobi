@@ -1,2 +1,5 @@
 ul {color:#B8C932;}
 ol {color:#0D727E;}
+table, th, td {
+  border: 1px solid black;
+}
