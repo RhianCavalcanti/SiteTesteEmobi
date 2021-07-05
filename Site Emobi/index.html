@@ -2,6 +2,7 @@
 
 <head>
   <title> E-Mobi</title>
+  <link href="folhadeestilo.css" rel="stylesheet">
 </head>
 
 <body>
@@ -57,34 +58,34 @@
               </tr>
               <tr>
                 <td>E-Mobi</td>
-                <td>&checkmark</td>
-                <td>&checkmark</td>
-                <td>&checkmark</td>
-                <td>&checkmark</td>
-                <td>&checkmark</td>
+                <td>&#x02713</td>
+                <td>&#x02713</td>
+                <td>&#x02713</td>
+                <td>&#x02713</td>
+                <td>&#x02713</td>
               </tr>
               <tr>
                 <td>Sports Art</td>
-                <td>&checkmark</td>
-                <td>&cross</td>
-                <td>&cross</td>
-                <td>&cross</td>
-                <td>&cross</td>
+                <td>&#x02713</td>
+                <td>&#x02717</td>
+                <td>&#x02717</td>
+                <td>&#x02717</td>
+                <td>&#x02717</td>
               </tr>
               <tr>
                 <td>EcoGreen</td>
-                <td>&checkmark</td>
-                <td>&checkmark</td>
-                <td>&cross</td>
-                <td>&checkmark</td>
+                <td>&#x02713</td>
+                <td>&#x02713</td>
+                <td>&#x02717</td>
+                <td>&#x02713</td>
               </tr>
               <tr>
                 <td>Eco Gym</td>
-                <td>&checkmark</td>
-                <td>&cross</td>
-                <td>&cross</td>
-                <td>&cross</td>
-                <td>&cross</td>
+                <td>&#x02713</td>
+                <td>&#x02717</td>
+                <td>&#x02717</td>
+                <td>&#x02717</td>
+                <td>&#x02717</td>
               </tr>
           </table>
         </ul></font>
@@ -102,36 +103,6 @@
         <li><a href="mailto:rhiancavalcanti10@hotmail.com">E-mail</a>
       </ul></font>
   </ol></font>
-   <input type="button" id="btnExport" value=" Export Table data into Excel " />
-    <br/>
-    <br/>
-    <div id="dvData">
-        <table>
-            <tr>
-                <th>Column One</th>
-                <th>Column Two</th>
-                <th>Column Three</th>
-            </tr>
-            <tr>
-                <td>row1 Col1</td>
-                <td>row1 Col2</td>
-                <td>row1 Col3</td>
-            </tr>
-            <tr>
-                <td>row2 Col1</td>
-                <td>row2 Col2</td>
-                <td>row2 Col3</td>
-            </tr>
-
-        </table>
-    </div>
-
- <script>
-    $("#btnExport").click(function (e) {
-        window.open('data:application/vnd.ms-excel,' + $('#dvData').html());
-        e.preventDefault();
-    });
-  </script>
 </body>
 
 </html>
